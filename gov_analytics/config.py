@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     DVC_REMOTE: Optional[str] = None
     DEFAULT_TIMEOUT: int = Field(30, description="HTTP timeout seconds")
 
-    model_config = {"env_file": ".env", "env_file_encoding": "utf-8"}
+    model_config = {"env_file": ".env", "env_file_encoding": "utf-8", "extra": "ignore"}
 
 
 settings = Settings()
