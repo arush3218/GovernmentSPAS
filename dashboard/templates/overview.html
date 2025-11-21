@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+  <section>
+    <h2>Overview KPIs</h2>
+    <div class="kpis">
+      <div class="kpi">PMAY Beneficiaries: <strong>{{ total_beneficiaries | default(0) }}</strong></div>
+      <div class="kpi">MNREGA Person-Days: <strong>{{ total_pdays | default(0) }}</strong></div>
+    </div>
+    <p>Use the navigation to explore more analytics.</p>
+  </section>
+{% endblock %}

@@ -1,0 +1,93 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "state_code": "MH",
+        "state_name": "Maharashtra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.7139, 19.7515]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state_code": "UP",
+        "state_name": "Uttar Pradesh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.9462, 26.8467]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state_code": "DL",
+        "state_name": "Delhi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.1025, 28.7041]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state_code": "KA",
+        "state_name": "Karnataka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.7139, 15.3173]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state_code": "TN",
+        "state_name": "Tamil Nadu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.6569, 11.1271]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state_code": "GJ",
+        "state_name": "Gujarat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.1924, 22.2587]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state_code": "RJ",
+        "state_name": "Rajasthan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.2179, 27.0238]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state_code": "WB",
+        "state_name": "West Bengal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [87.8550, 22.9868]
+      }
+    }
+  ]
+}

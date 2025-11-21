@@ -1,0 +1,7 @@
+stages:
+  ingest:
+    cmd: python -m gov_analytics.prefect_flows
+    deps:
+      - gov_analytics/**
+    outs:
+      - data/cleaned

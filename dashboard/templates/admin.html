@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Admin Panel - ETL Trigger</h2>
+  <section>
+    <form method="POST" action="/trigger_etl">
+      <div>
+        <label>Scheme:</label>
+        <select name="scheme" required>
+          <option value="pmay">PMAY</option>
+          <option value="mnrega">MNREGA</option>
+          <option value="startup_india">Startup India</option>
+          <option value="saubhagya">Saubhagya</option>
+        </select>
+      </div>
+      <div>
+        <label>Resource ID:</label>
+        <input type="text" name="resource_id" placeholder="data.gov.in resource ID" required>
+      </div>
+      <div>
+        <label>Secret Token:</label>
+        <input type="password" name="secret" placeholder="ETL_TRIGGER_SECRET" required>
+      </div>
+      <button type="submit">Trigger ETL</button>
+    </form>
+  </section>
+  <section>
+    <h3>CSV Exports</h3>
+    <ul>
+      <li><a href="/export/pmay">Export PMAY Data (CSV)</a></li>
+      <li><a href="/export/mnrega">Export MNREGA Data (CSV)</a></li>
+      <li><a href="/export/startup_india">Export Startup India Data (CSV)</a></li>
+      <li><a href="/export/saubhagya">Export Saubhagya Data (CSV)</a></li>
+    </ul>
+  </section>
+{% endblock %}

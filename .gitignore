@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+
+# DVC
+.dvc/cache/
+.dvc/tmp/
+
+# Data
+data/*.csv
+data/*.json
+!data/README.md
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite
