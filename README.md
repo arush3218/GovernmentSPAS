@@ -124,5 +124,3 @@ GOV_DATA/
 ```
 
 ---
-
-Built with ❤️ for analyzing government scheme performance
